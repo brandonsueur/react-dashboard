@@ -1,0 +1,47 @@
+header.navbar {
+	width: 100%;
+
+	height: 62px;
+	padding: 0px;
+	background-color: $blue-light;
+	margin-bottom: 0px;
+
+	ul.navbar-right{
+		float: right;
+		list-style: none;
+		padding: 0;
+
+		li {
+			margin-top: 5px;
+			display: inline-block;
+		}
+
+		li.navbar-profile{
+			margin-right: 30px;
+			color: grey;
+
+			a{
+				color: $grey;
+				font-size: 15px;
+				font-weight: 500;
+
+				@include transition-duration(0.3s);
+
+				&:hover{
+					color: #fff;
+				}
+			}
+		}
+
+		li.navbar-visitwebsite{
+			a.btn-visit-website{
+				background-color: $violet;
+				color: #fff;
+				font-size: 15px;
+				font-weight: 500;
+				letter-spacing: 1px;
+				padding: 50px;
+			}
+		}
+	}
+}

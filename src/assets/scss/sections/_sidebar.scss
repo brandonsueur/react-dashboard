@@ -41,6 +41,7 @@ sidebar{
 					color: $grey;
 
 					i{
+						font-size: 13px;
 						color: $grey;
 						margin-right: 15px;
 					}
@@ -61,16 +62,13 @@ sidebar{
 				@include transition-duration(0.3s);
 
 				&:hover{
-					i, a{
-						color:#fff;
-					}
+					i, a{ color:#fff }
 				}
 
 				&.active{
 					border-left: solid 2px $violet;
 
-					i{ color: #fff }
-					a{ color:#fff }
+					i, a{ color: #fff }
 
 					&::after {
 						content: "";
