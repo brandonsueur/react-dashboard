@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
+import Sidebar from "./components/Sidebar/Sidebar";
 
 class App extends Component {
   render() {
-    return (<h1>Hello world</h1>);
+    return (
+    	<div>
+            <Sidebar/>
+    	</div>
+    );
   }
 }
 
