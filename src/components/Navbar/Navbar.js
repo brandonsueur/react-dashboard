@@ -11,7 +11,7 @@ class Navbar extends Component{
                         <a href="/">Brandon Sueur</a>
                     </li>
 
-                    <li className="navbar-visitwebsite">
+                    <li>
                         <a className='btn-visit-website' href="/">Visiter le site</a>
                     </li>
                 </ul>

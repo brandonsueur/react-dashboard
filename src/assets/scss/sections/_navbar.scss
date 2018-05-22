@@ -33,15 +33,13 @@ header.navbar {
 			}
 		}
 
-		li.navbar-visitwebsite{
-			a.btn-visit-website{
-				background-color: $violet;
-				color: #fff;
-				font-size: 15px;
-				font-weight: 500;
-				letter-spacing: 1px;
-				padding: 50px;
-			}
+		li a.btn-visit-website{
+			background-color: $violet;
+			color: #fff;
+			font-size: 15px;
+			font-weight: 500;
+			letter-spacing: 1px;
+			padding: 50px;
 		}
 	}
 }

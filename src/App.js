@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Sidebar from "./components/Sidebar/Sidebar";
 import Navbar from "./components/Navbar/Navbar";
+import SubHeader from "./components/SubHeader/SubHeader";
 
 class App extends Component {
   render() {
@@ -10,6 +11,8 @@ class App extends Component {
 
             <main className='page__content'>
                 <Navbar />
+
+                <SubHeader />
 
                 <div className="container-fuild">
                     <div className="row">

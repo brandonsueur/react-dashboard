@@ -1,0 +1,44 @@
+.sub-header{
+	position: absolute;
+	width: calc(100% - 300px);
+	border-bottom: solid 1px #eeeef0;
+	padding: 15px;
+
+	h2.title{
+		display: inline-block;
+		margin-left: 5px;
+	}
+
+	.buttons{
+		display: inline-block;
+		position: absolute;
+		margin-top: 25px;
+		right: 25px;
+
+		.btn{
+			color: #fff;
+			padding: 12px 25px;
+			border-radius: 5px;
+			font-weight: 500;
+			margin-left: 20px;
+
+			@include transition-duration(0.3s);
+
+			&.save{
+				background: #90cf8f;
+
+				&:hover{
+					background: darken(#90cf8f, 10%);
+				}
+			}
+
+			&.cancel{
+				background: #e3e3e3;
+
+				&:hover{
+					background: darken(#e3e3e3, 10%);
+				}
+			}
+		}
+	}
+}
