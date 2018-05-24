@@ -1,0 +1,36 @@
+form{
+
+	.form{
+		margin-top: 20px;
+		margin-left: 20px;
+		outline: none;
+		display: block;
+		border: 0;
+		font-family: 'Lato', sans-serif;
+
+		&.title{
+			font-size: 30px;
+			font-weight: 900;
+			margin-bottom: 15px;
+			color: #e1e1e1;
+		}
+
+		&.subtitle{
+			font-size: 19px;
+			font-weight: 400;
+			font-style: italic;
+			margin-bottom: 30px;
+			color: #e1e1e1;
+		}
+
+		&.textarea{
+			font-size: 19px;
+			font-weight: 400;
+			color: #e1e1e1;
+			margin: 20px 288px 0px 20px;
+			width: calc(100% - 50px);
+			height: 480px;
+			resize: none
+		}
+	}
+}

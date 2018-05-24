@@ -15,11 +15,12 @@ class App extends Component {
                 <SubHeader />
 
                 <div className="container-fuild">
-                    <div className="row">
-                        <div className="container">
+                    <form action="#">
+                        <input type="text" name="title" class="form title" placeholder="Titre de l'article"/>
+                        <input type="text" name="sub-title" class="form subtitle" placeholder="Sous-titre"/>
 
-                        </div>
-                    </div>
+                        <textarea name="content" cols="30" rows="10" class="form textarea" placeholder="Contenu de l'article..."></textarea>
+                    </form>
                 </div>
             </main>
     	</div>
