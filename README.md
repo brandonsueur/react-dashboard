@@ -2,6 +2,8 @@
 
 A simple dashboard made with React.js in ES6 JavaScript.
 
+[Try the dashboard](https://dashboard-of-gynidark.herokuapp.com/#) 🚀
+
 ![](https://cdn.discordapp.com/attachments/364035084644384771/446619713234010112/Dashboarddahsboard.jpg)
 
 ### :wrench: Install
